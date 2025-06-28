@@ -5,6 +5,12 @@ personal repo for [data engineering zoomcamp by DataTalks](https://github.com/Da
 
 - week 1 – docker and terraform
 
+## tools used
+
+- docker
+- postgreSQL
+- pgadmin
+
 ## resources
 
 - [zoomcamp course repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
