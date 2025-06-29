@@ -8,8 +8,10 @@ personal repo for [data engineering zoomcamp by DataTalks](https://github.com/Da
 ## tools used
 
 - docker
+- jupyter
 - postgreSQL
 - pgadmin
+- pgcli
 
 ## resources
 

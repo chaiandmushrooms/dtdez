@@ -1,1 +1,4 @@
 01-docker_terraform/ny_taxi
+01-docker_terraform/.ipynb_checkpoints
+01-docker_terraform/__pycache__
+01-docker_terraform/yellow_tripdata*
