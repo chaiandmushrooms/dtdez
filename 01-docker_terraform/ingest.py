@@ -68,7 +68,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Ingest parquet data to Postgres")
-    parser.add_argument('--user', type=str, required=True help='postgres username')
+    parser.add_argument('--user', type=str, required=True, help='postgres username')
     parser.add_argument('--password', type=str, required=True, help='postgres password')
     parser.add_argument('--host', type=str, required=True, help='hostname')
     parser.add_argument('--port', type=str, required=True, help='port number to connect to PostgreSQL')
