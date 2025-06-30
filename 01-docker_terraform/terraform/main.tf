@@ -27,10 +27,3 @@ resource "google_storage_bucket" "auto-expire" {
     }
   }
 }
-
-resource "google_bigquery_dataset" "dataset" {
-  dataset_id                  = var.name
-  friendly_name               = "sample dataset"
-  location                    = "US"
-  default_table_expiration_ms = 3600000
-}
