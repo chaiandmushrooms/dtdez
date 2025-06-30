@@ -3,3 +3,6 @@
 01-docker_terraform/__pycache__
 01-docker_terraform/yellow_tripdata*
 .ipynb_checkpoints
+*.json
+01-docker_terraform/terraform/.terra*
+01-docker_terraform/terraform/terra*
