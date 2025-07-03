@@ -5,3 +5,4 @@
 .ipynb_checkpoints
 *.json
 01-docker_terraform/terraform/.terra*
+01-docker_terraform/docker/ny_taxi

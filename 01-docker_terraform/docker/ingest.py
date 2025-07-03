@@ -61,7 +61,7 @@ def main(args):
     port = args.port
     filelink = args.url
     table = args.table
-    server = f'postgresql://{user}:{password}@{host}:{port}/{table}'
+    server = f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{table}'
     engine = connection(server)
     filename = download_file(filelink)
     write(engine, filename)
