@@ -6,3 +6,8 @@
 *.json
 01-docker_terraform/terraform/.terra*
 01-docker_terraform/docker/ny_taxi
+.*
+02-data-ingestion/airflow_tut/config
+02-data-ingestion/airflow_tut/dags
+02-data-ingestion/airflow_tut/logs
+02-data-ingestion/airflow_tut/plugins
